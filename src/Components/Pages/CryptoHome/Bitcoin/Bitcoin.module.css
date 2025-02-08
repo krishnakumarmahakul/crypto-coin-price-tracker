@@ -1,0 +1,57 @@
+.crypto-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .crypto-table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse; /* Ensures proper table layout */
+  }
+  
+  .crypto-table th,
+  .crypto-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    height: 100px; /* Set row height */
+    text-align: center;
+    vertical-align: middle; /* Center text vertically */
+  }
+  
+  .crypto-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .coin-name {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center coin name and image */
+    gap: 10px;
+  }
+  
+  .coinImage {
+    width: 30px;
+    height: 30px;   
+    object-fit: contain;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .loading,
+  .error {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+  }
+  

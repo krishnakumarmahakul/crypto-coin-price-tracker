@@ -1,0 +1,28 @@
+.topcoin{
+    margin-top: 30px;
+    height: 100%;
+    
+    width: 98%;
+    margin: 50px auto;
+    background-color: #fff;
+    color: balck;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.topcoin h2{
+    text-align: center;
+}
+.topcoin ul{
+    list-style: none;
+}
+.topcoin ul li{
+    display: flex;
+   
+}
+.topcoin ul li img{
+    width: 30px;
+    height: 30px;   
+    margin-right: 10px;
+}
+
